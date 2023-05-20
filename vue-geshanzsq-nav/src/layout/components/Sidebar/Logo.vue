@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: '格姗知识圈导航',
+      title: '描述符导航知识圈',
       logo: logoImg
     }
   }

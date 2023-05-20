@@ -2,7 +2,8 @@
   <div :class="{'has-logo':showLogo}">
     <logo v-if="showLogo" :collapse="isCollapse" />
 
-    <el-scrollbar :class="settings.sideTheme" wrap-class="scrollbar-wrapper">
+<!-- :class= "settings.sideTheme" -->
+    <el-scrollbar class="" wrap-class="scrollbar-wrapper">
       <el-menu
           :default-active="activeMenu"
           :collapse="isCollapse"

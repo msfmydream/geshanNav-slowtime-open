@@ -26,7 +26,7 @@
     },
     data() {
       return {
-        title: '格姗知识圈导航',
+        title: '描述符导航知识圈',
         logo: logoImg
       }
     }
@@ -69,7 +69,7 @@
         color: #fff;
         font-weight: 600;
         line-height: 50px;
-        font-size: 20px;
+        font-size: 15px;
         font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
         vertical-align: middle;
       }

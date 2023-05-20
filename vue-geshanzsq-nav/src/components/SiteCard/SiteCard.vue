@@ -15,6 +15,10 @@
       <el-main style="padding: 0;margin-left: 5px" >
         <a class="site-card-site-title" :class="site.siteDescription != '' ? '' : 'site-card-site-no-description'" ><strong>{{site.siteName}}</strong></a>
         <p class="site-card-site-description" v-if="site.siteDescription != ''">{{site.siteDescription}}</p>
+        <!-- 新增 收藏功能  -->
+        <span class="site-collect">
+            <!-- <p> <a href="#">收藏</a> </p> -->
+        </span>
       </el-main>
       <slot name="container-footer"></slot>
     </el-container>
@@ -102,6 +106,11 @@
       margin-top: 5px;
       font-size: 14px;
       color: #979898;
+    }
+
+    .site-collect{
+      position: inherit;
+      font-size: 5px;
     }
   }
 

@@ -122,7 +122,7 @@
       tip() {
         this.$notify.info({
           title: '小提示',
-          message: '如果喜欢本站可以设置为主页，这是对我最大的支持！'
+          message: '欢迎来到描述符导航知识圈'
         })
 
       },

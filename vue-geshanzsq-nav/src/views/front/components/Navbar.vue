@@ -1,8 +1,21 @@
 <template>
+<!-- 首页的NavBar -->
   <div class="navbar">
     <hamburger id="hamburger-container" :is-active="sidebar.opened" class="hamburger-container" @toggleClick="toggleSideBar" />
 
     <weather v-if="device != 'mobile'" style="margin: 15px;float: left"/>
+
+
+    <!-- <span>是否登录</span> -->
+            <!-- 登录注册用户信息 -->
+            <div class="right-menu-no-login">
+              <el-button-group :style="{'margin-left': '20px'}">
+                    <el-button round type="primary" plain @click="loginAndRegister(1)">登录</el-button>
+                    <el-button round type="primary" plain @click="loginAndRegister(0)">注册</el-button>
+                </el-button-group>
+
+            </div>
+    
 
   </div>
 </template>
@@ -59,6 +72,13 @@ export default {
     &:hover {
       background: rgba(0, 0, 0, .025)
     }
+  }
+
+  .right-menu-no-login{
+    margin-right: 10px;
+    height: 100%;
+    float: right;
+    line-height: 50px;
   }
 
   .errLog-container {

@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     <el-divider></el-divider>
-    Copyright &copy; 2020-2022 <a href="/">格姗知识圈导航</a>
-    选择主题 <a href="https://nav.geshanzsq.com">格姗知识圈导航</a>
+     <a href="/">描述符导航知识圈</a>
+    <!-- 选择主题 <a href="https://nav.geshanzsq.com">描述符导航知识圈</a> -->
   </div>
 </template>
 
